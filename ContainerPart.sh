@@ -4,8 +4,6 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 #Lets setup our objects so we can change things here, rather than in the scipt
 DB=TC_splicecom
 DUMP_FILE=/root/BackupScript/Backup.sql.gz
-SENDTO=Send@to.address
-SENDFROM=Send@from.address
 THIS_SCRIPT=/root/BackupScript/ContainerPart.sh
 DB_USERNAME=root
 DB_PASSWORD=root
