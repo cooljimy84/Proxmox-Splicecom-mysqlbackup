@@ -4,4 +4,4 @@ You also need to make sure that the container has enough space to do the backup,
 
 I may, if i get time, attach a directory from the host to the container to store the backup, solving that problem.
 
-You are free to use this program as is, but i do encorage you to fork it and improve it so all.
+You are free to use this program as is, but i do encorage you to fork it and improve it for all.
