@@ -2,11 +2,11 @@
 #PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 #Lets setup our objects so we can change things here, rather than in the scipt
 DB=TC_splicecom
-DUMP_FILE=`pwd`/Backup.sql.gz
+DUMP_FILE=/root/BackupScript/Backup.sql.gz
+THIS_SCRIPT=/root/BackupScript/ContainerPart.sh
 DB_USERNAME=root
 DB_PASSWORD=root
 
-# Lock the database and sleep in the background task
 #Lock the database and sleep in the background task
 if mysql --version; then
 	#Keep going we have mysql installed
